@@ -1,10 +1,10 @@
 # Ruby Object Relations: Has-Many-Through Lab
 
-## Objectives
+## Learning Goals
 
-1.  Write classes that are related to each other via the "has-many-through"
+- Write classes that are related to each other via the "has-many-through"
     relationship.
-2.  Write methods that use the "has-many-through" relationship to deliver
+- Write methods that use the "has-many-through" relationship to deliver
     information on related objects.
 
 ## Overview
@@ -99,5 +99,3 @@ Now let's move on to our `Doctor`/`Appointment`/`Patient` domain model.
 - The `Patient` class needs an instance method, `#doctors`, that iterates over
   that patient's `Appointment`s and collects the doctor that belongs to each
   `Appointment`.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-objects-has-many-through-lab'>Has Many Objects Through Lab</a> on Learn.co and start learning to code for free.</p>
